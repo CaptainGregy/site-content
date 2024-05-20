@@ -1,0 +1,32 @@
+<head>
+    <!-- Other head content -->
+    <link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
+</head>
+
+<footer>
+    <div class="container">
+        <table>
+            <tr>
+                <td class="logo">
+                    <img src="{{ .Site.Params.footer_logo | relURL }}" alt="Site Logo">
+                </td>
+                <td class="contact-info">
+                    <table>
+                        <tr>
+                            <td><p>Email:</p></td>
+                            <td><p><a href="mailto:{{ .Site.Params.footer_email }}">{{ .Site.Params.footer_email }}</a></p></td>
+                        </tr>
+                        <tr>
+                            <td><p>Phone:</p></td>
+                            <td><p><a href="{{ .Site.Params.footer_whatsapp }}" target="_blank">{{ .Site.Params.footer_phone }}</a></p></td>
+                        </tr>
+                        <tr>
+                            <td><p>Address:</p></td>
+                            <td><p><a href="{{ .Site.Params.footer_map_url }}" target="_blank">{{ .Site.Params.footer_address }}</a></p></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </div>
+</footer>
