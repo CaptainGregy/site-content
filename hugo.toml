@@ -50,3 +50,9 @@ name = "Captain Gregy"
      name = "Captain Gregy"
 
 [[params.ananke_socials]]
+name = "Facebook"
+url = "https://www.facebook.com/CaptainGregy/"
+
+[[params.ananke_socials]]
+name = "Instagram"
+url = "https://www.instagram.com/captaingregy/"
