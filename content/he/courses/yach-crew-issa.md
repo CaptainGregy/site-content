@@ -6,7 +6,7 @@ weight: 1
 ---
 Yacht crew ISSA – איש צוות או עוזר סקיפר, הוא השלב הבסיסי בעולם השייט. ההכשרה מקנה ידע בסיסי בתפעול ובטיחות יאכטת מפרש. בסיום הכשרה, תוכלו להפוך ליד ימינו של סקיפר חופי InShore Skipper ISSA, וסקיפר מים פתוחים OffShore Skipper ISSA ולסייע בתפעול ספינת מפרש.
 
-{{< side-by-side src1="/images/yachtcrew/Yacht-crew-ISSA-front-CG.png" src2="/images/yachtcrew/Yacht-crew-ISSA-back-CG.png" >}}
+{{< side-by-side src1="images/yachtcrew/Yacht-crew-ISSA-front-CG.png" src2="images/yachtcrew/Yacht-crew-ISSA-back-CG.png" >}}
 
 
 - **ניסיון קודם:** לא נדרש

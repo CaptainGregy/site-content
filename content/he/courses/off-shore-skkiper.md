@@ -6,7 +6,7 @@ weight: 1
 ---
 Offshore Skipper ISSA – סקיפר מים פתוחים. הכשרה מתקדמת והמשך של InShore Skipper ISSA. הכשרה מיועדת למי שמעוניין להרחיב את כישוריו המקצועיים בשייט. בסיום ההכשרה תוכלו להשיט ספינת מפרש עד 24 מטר, ביום ובלילה, למרחק 80 מייל ימי מהחוף.
 
-{{< side-by-side src1="/images/offshore/License_ISSA_offshore_front_CG.png" src2="/images/offshore/License_ISSA_offshore_back_CG.png" >}}
+{{< side-by-side src1="images/offshore/License_ISSA_offshore_front_CG.png" src2="images/offshore/License_ISSA_offshore_back_CG.png" >}}
 
 - **ניסיון קודם:** סקיפר חופי של ISSA או של ארגון אחר באותה רמה
 - **גיל מינימלי:** 18 שנים
