@@ -1,3 +1,2 @@
 User-agent: *
-Allow: /
-Sitemap: https://captaingregy.github.io/sitemap.xml
+Disallow: /
