@@ -47,7 +47,7 @@ name = "Captain Gregy"
   footer_telegram = "https://t.me/c/1590458240/170"
   footer_address = "מעגן שביט רח’ הדייגים, חיפה"
   footer_logo = "images/logo.png"
-  issa_logo = "images/issa.jpeg"
+  issa_logo = "images/ISSA.jpeg"
   [intro]
      name = "Captain Gregy"
 
