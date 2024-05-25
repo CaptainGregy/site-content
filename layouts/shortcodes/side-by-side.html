@@ -3,12 +3,12 @@
     {{ $image2 := .Get "src2" }}
     {{ with $image1 }}
     <figure style="flex: 1; margin-right: 1px;">
-        <img src="{{ $image1 }}" style="width: 100%;">
+        <img src="{{ $image1 | relURL }}" style="width: 100%;">
     </figure>
     {{ end }}
     {{ with $image2 }}
     <figure style="flex: 1;">
-        <img src="{{ $image2 }}" style="width: 100%;">
+        <img src="{{ $image2 | relURL }}" style="width: 100%;">
     </figure>
     {{ end }}
 </div>
