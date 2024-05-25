@@ -1,8 +1,8 @@
 title = "Captain Gregy"
 baseURL = "https://captaingregy.github.io/site-content/"
 # languageCode = "en-us"
-theme = ["ananke"]
-resourceDir = "resources"
+theme = ["github.com/theNewDynamic/gohugo-theme-ananke"]
+resourceDir = "../resources"
 
 DefaultContentLanguage = "he"
 SectionPagesMenu = "main"
