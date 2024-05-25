@@ -7,7 +7,7 @@ weight: 1
 
 ההכשרה מקנה את הכלים וידע המקצועיים הדרושים לצאת לשייט באופן עצמאי.  בסיום ההכשרה תוכלו להפעיל ולהשיט כלי שייט שאורכו עד 24 מטר, ביום ובלילה, לטווח של 20 מייל ימי מהחוף. הסמכה זו כוללת בתוכה את הסמכת Yacht crew ISSA. 
 
-{{< side-by-side src1="/images/inshore/License_ISSA_Inshore_front_CG.png" src2="/images/inshore/License_ISSA_Inshore_back_CG.png" >}}
+{{< side-by-side src1="images/inshore/License_ISSA_Inshore_front_CG.png" src2="images/inshore/License_ISSA_Inshore_back_CG.png" >}}
 
 ## דרישות הקורס
 
