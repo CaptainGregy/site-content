@@ -40,7 +40,7 @@ jobs:
           extended: true
 
       - name: Build
-        run: hugo --gc --minify --baseURL "/site-content/"
+        run: hugo --gc --minify
 
 
 
