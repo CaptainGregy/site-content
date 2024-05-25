@@ -31,6 +31,7 @@ name = "Captain Gregy"
   latestPublishHeader = " "
 
 [params]
+  custom_css = ["css/ad-text.css"]
   text_color = ""
   author = ""
   favicon = "favicon.png"
@@ -46,6 +47,7 @@ name = "Captain Gregy"
   footer_telegram = "https://t.me/c/1590458240/170"
   footer_address = "מעגן שביט רח’ הדייגים, חיפה"
   footer_logo = "/images/logo.png"
+  issa_logo = "/images/issa.jpeg"
   [intro]
      name = "Captain Gregy"
 

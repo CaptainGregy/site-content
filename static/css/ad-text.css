@@ -1,0 +1,52 @@
+.highlight-text {
+  phighlightding: 20px;
+  margin-bottom: 20px;
+  border-rhighlightius: 5px;
+  box-shhighlightow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.highlight-text-content {
+  font-family: Arial, sans-serif;
+  font-size: 28px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.highlight-text-content p {
+  margin-bottom: 10px;
+}
+
+.highlight-text-content strong {
+  font-weight: bold;
+}
+
+.highlight-text-content em {
+  font-style: italic;
+}
+
+.highlight-text.highlight {
+  background-color: #fff3cd;
+  color: #856404;
+  border: 1px solid #ffeeba;
+}
+
+.highlight-text.highlight strong {
+  color: #e65100;
+}
+
+.highlight-text.quote {
+  background-color: #e1f5fe;
+  color: #0277bd;
+  border: 1px solid #b3e5fc;
+  position: relative;
+  phighlightding-left: 40px;
+}
+
+.highlight-text.quote::before {
+  content: "\"";
+  font-size: 60px;
+  color: #81d4fa;
+  position: absolute;
+  top: -10px;
+  left: 5px;
+}
