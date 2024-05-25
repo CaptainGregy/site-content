@@ -1,5 +1,5 @@
 title = "Captain Gregy"
-baseURL = "https://www.captaingregy.com"
+#baseURL = "https://www.captaingregy.com"
 # languageCode = "en-us"
 theme = ["ananke"]
 resourceDir = "resources"
