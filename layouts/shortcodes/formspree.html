@@ -1,7 +1,7 @@
 {{ $.Scratch.Add "labelClasses" "f6 b db mb1 mt3 sans-serif mid-gray" }}
 {{ $.Scratch.Add "inputClasses" "w-100 f5 pv3 ph3 bg-light-gray bn" }}
 
-<form class="black-80 sans-serif" accept-charset="UTF-8" action="https://formspree.io/f/xyyradne"  method="POST" role="form" style="text-align:right">
+<form id="contact-form" class="black-80 sans-serif" accept-charset="UTF-8" style="text-align:right">
 
     <label class="{{ $.Scratch.Get "labelClasses" }}"  for="name">{{ i18n "yourName" }}</label>
     <input type="text" id="name" name="name" class="{{ $.Scratch.Get "inputClasses" }}"  required placeholder=" "  aria-labelledby="name"/>
@@ -17,3 +17,37 @@
     <input class="db w-100 mv2 white pa3 bn hover-shadow hover-bg-black bg-animate bg-black" type="submit" value="{{ i18n "send" }}" />
 
 </form>
+
+<div id="form-message"></div>
+
+<style>
+#form-message {
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 4px;
+  display: none;
+}
+</style>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+$(document).ready(function() {
+  $('#contact-form').submit(function(e) {
+    e.preventDefault();
+    var formData = $(this).serialize();
+    $.ajax({
+      type: 'POST',
+      url: 'https://formspree.io/f/xyyradne',
+      data: formData,
+      dataType: 'json',
+      success: function(data) {
+        $('#form-message').text('תודה, קיבלנו את הפניה. נחזור בהקדם.').css('background-color', '#d4edda').css('color', '#155724').fadeIn();
+        $('#contact-form')[0].reset();
+      },
+      error: function(error) {
+        $('#form-message').text('חלה שגיעה בשליחת הנתוים, אנא נסו שנית.').css('background-color', '#f8d7da').css('color', '#721c24').fadeIn();
+      }
+    });
+  });
+});
+</script>
