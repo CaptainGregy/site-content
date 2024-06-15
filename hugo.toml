@@ -31,7 +31,7 @@ name = "Captain Gregy"
   latestPublishHeader = " "
 
 [params]
-  custom_css = ["css/ad-text.css"]
+  custom_css = ["css/ad-text.css", "css/form.css"]
   text_color = ""
   author = ""
   favicon = "favicon.png"

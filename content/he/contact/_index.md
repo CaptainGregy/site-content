@@ -3,6 +3,7 @@ title: "צור קשר"
 omit_header_text: true
 description: We'd love to hear from you
 type: page
+hideForm: true
 weight: 10
 ---
 
